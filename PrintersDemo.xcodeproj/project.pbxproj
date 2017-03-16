@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C64280271572DE7E36B5CBCD /* Pods_PrintersDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F9C19DE42471B431B609F3 /* Pods_PrintersDemo.framework */; };
+		EEB78A6D1E78FAE60035069A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A6C1E78FAE60035069A /* AppDelegate.swift */; };
+		EEB78A6F1E78FAE60035069A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A6E1E78FAE60035069A /* HomeVC.swift */; };
+		EEB78A721E78FAE60035069A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB78A701E78FAE60035069A /* Main.storyboard */; };
+		EEB78A741E78FAE60035069A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB78A731E78FAE60035069A /* Assets.xcassets */; };
+		EEB78A771E78FAE60035069A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB78A751E78FAE60035069A /* LaunchScreen.storyboard */; };
+		EEB78A831E78FC830035069A /* libepos2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A811E78FC830035069A /* libepos2.a */; };
+		EEB78A841E78FC830035069A /* libeposeasyselect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A821E78FC830035069A /* libeposeasyselect.a */; };
+		EEB78A861E78FC8F0035069A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A851E78FC8F0035069A /* libxml2.2.tbd */; };
+		EEB78A881E78FC9D0035069A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A871E78FC9D0035069A /* ExternalAccessory.framework */; };
+		EEB78A8D1E78FDA20035069A /* SMCloudServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A8A1E78FDA20035069A /* SMCloudServices.framework */; };
+		EEB78A8E1E78FDA20035069A /* StarIO_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A8B1E78FDA20035069A /* StarIO_Extension.framework */; };
+		EEB78A8F1E78FDA20035069A /* StarIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A8C1E78FDA20035069A /* StarIO.framework */; };
+		EEB78A911E78FDF80035069A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB78A901E78FDF80035069A /* CoreBluetooth.framework */; };
+		EEB78A931E7902590035069A /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB78A921E7902590035069A /* Setting.storyboard */; };
+		EEB78A961E7902860035069A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB78A941E7902860035069A /* Home.storyboard */; };
+		EEB78A981E7902B40035069A /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A971E7902B40035069A /* SettingVC.swift */; };
+		EEB78A9A1E791CC10035069A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A991E791CC10035069A /* MainVC.swift */; };
+		EEB78A9C1E792EBE0035069A /* PrinterSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A9B1E792EBE0035069A /* PrinterSettingVC.swift */; };
+		EEB78A9E1E7938690035069A /* AddPrinterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A9D1E7938690035069A /* AddPrinterVC.swift */; };
+		EEB78AA31E7A458B0035069A /* PrinterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78AA21E7A458B0035069A /* PrinterCell.swift */; };
+		EEB78AA51E7A464C0035069A /* PrinterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78AA41E7A464C0035069A /* PrinterItem.swift */; };
+		EEB78AA71E7A4CBB0035069A /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78AA61E7A4CBB0035069A /* DeviceInfo.swift */; };
+		EEB78AAE1E7A57260035069A /* SMCloudServicesResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEB78AAD1E7A57260035069A /* SMCloudServicesResources.bundle */; };
+		EEF471281E7A757A000DE7BB /* Printers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF471271E7A757A000DE7BB /* Printers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2AD7B22738B548F4DCD566 /* Pods-PrintersDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintersDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrintersDemo/Pods-PrintersDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		92F9C19DE42471B431B609F3 /* Pods_PrintersDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintersDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56F79CA48B1C0CBF1BB9197 /* Pods-PrintersDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintersDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrintersDemo/Pods-PrintersDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EEB78A691E78FAE60035069A /* PrintersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB78A6C1E78FAE60035069A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB78A6E1E78FAE60035069A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EEB78A711E78FAE60035069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB78A731E78FAE60035069A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB78A761E78FAE60035069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB78A781E78FAE60035069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB78A7F1E78FC770035069A /* ePOS2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ePOS2.h; sourceTree = "<group>"; };
+		EEB78A801E78FC770035069A /* ePOSEasySelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ePOSEasySelect.h; sourceTree = "<group>"; };
+		EEB78A811E78FC830035069A /* libepos2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libepos2.a; sourceTree = "<group>"; };
+		EEB78A821E78FC830035069A /* libeposeasyselect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libeposeasyselect.a; sourceTree = "<group>"; };
+		EEB78A851E78FC8F0035069A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		EEB78A871E78FC9D0035069A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		EEB78A8A1E78FDA20035069A /* SMCloudServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMCloudServices.framework; sourceTree = "<group>"; };
+		EEB78A8B1E78FDA20035069A /* StarIO_Extension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO_Extension.framework; sourceTree = "<group>"; };
+		EEB78A8C1E78FDA20035069A /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
+		EEB78A901E78FDF80035069A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		EEB78A921E7902590035069A /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		EEB78A951E7902860035069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		EEB78A971E7902B40035069A /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		EEB78A991E791CC10035069A /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EEB78A9B1E792EBE0035069A /* PrinterSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterSettingVC.swift; sourceTree = "<group>"; };
+		EEB78A9D1E7938690035069A /* AddPrinterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPrinterVC.swift; sourceTree = "<group>"; };
+		EEB78A9F1E7943A50035069A /* PrintersDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrintersDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EEB78AA21E7A458B0035069A /* PrinterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterCell.swift; sourceTree = "<group>"; };
+		EEB78AA41E7A464C0035069A /* PrinterItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterItem.swift; sourceTree = "<group>"; };
+		EEB78AA61E7A4CBB0035069A /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		EEB78AAD1E7A57260035069A /* SMCloudServicesResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMCloudServicesResources.bundle; sourceTree = "<group>"; };
+		EEF471271E7A757A000DE7BB /* Printers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB78A661E78FAE60035069A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB78A911E78FDF80035069A /* CoreBluetooth.framework in Frameworks */,
+				EEB78A881E78FC9D0035069A /* ExternalAccessory.framework in Frameworks */,
+				EEB78A861E78FC8F0035069A /* libxml2.2.tbd in Frameworks */,
+				EEB78A841E78FC830035069A /* libeposeasyselect.a in Frameworks */,
+				C64280271572DE7E36B5CBCD /* Pods_PrintersDemo.framework in Frameworks */,
+				EEB78A8D1E78FDA20035069A /* SMCloudServices.framework in Frameworks */,
+				EEB78A831E78FC830035069A /* libepos2.a in Frameworks */,
+				EEB78A8F1E78FDA20035069A /* StarIO.framework in Frameworks */,
+				EEB78A8E1E78FDA20035069A /* StarIO_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7885CE8F0E7AD1CAFF0BBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78A901E78FDF80035069A /* CoreBluetooth.framework */,
+				EEB78A871E78FC9D0035069A /* ExternalAccessory.framework */,
+				EEB78A7E1E78FC660035069A /* ePOS2 */,
+				EEB78A891E78FD8C0035069A /* StarPRNT */,
+				92F9C19DE42471B431B609F3 /* Pods_PrintersDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD7AEDA88E722B6BD27AABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2AD7B22738B548F4DCD566 /* Pods-PrintersDemo.debug.xcconfig */,
+				E56F79CA48B1C0CBF1BB9197 /* Pods-PrintersDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEB78A601E78FAE60035069A = {
+			isa = PBXGroup;
+			children = (
+				EEB78A6B1E78FAE60035069A /* PrintersDemo */,
+				EEB78A6A1E78FAE60035069A /* Products */,
+				EBD7AEDA88E722B6BD27AABE /* Pods */,
+				DB7885CE8F0E7AD1CAFF0BBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB78A6A1E78FAE60035069A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78A691E78FAE60035069A /* PrintersDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB78A6B1E78FAE60035069A /* PrintersDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78AA81E7A4CFA0035069A /* Model */,
+				EEB78AAA1E7A4D0E0035069A /* View */,
+				EEB78AA91E7A4D020035069A /* ViewController */,
+				EEB78AAB1E7A4D470035069A /* Supporting Files */,
+				EEB78A731E78FAE60035069A /* Assets.xcassets */,
+			);
+			path = PrintersDemo;
+			sourceTree = "<group>";
+		};
+		EEB78A7E1E78FC660035069A /* ePOS2 */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78A7F1E78FC770035069A /* ePOS2.h */,
+				EEB78A801E78FC770035069A /* ePOSEasySelect.h */,
+				EEB78A811E78FC830035069A /* libepos2.a */,
+				EEB78A821E78FC830035069A /* libeposeasyselect.a */,
+				EEB78A851E78FC8F0035069A /* libxml2.2.tbd */,
+			);
+			name = ePOS2;
+			sourceTree = "<group>";
+		};
+		EEB78A891E78FD8C0035069A /* StarPRNT */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78AAD1E7A57260035069A /* SMCloudServicesResources.bundle */,
+				EEB78A8A1E78FDA20035069A /* SMCloudServices.framework */,
+				EEB78A8B1E78FDA20035069A /* StarIO_Extension.framework */,
+				EEB78A8C1E78FDA20035069A /* StarIO.framework */,
+			);
+			name = StarPRNT;
+			sourceTree = "<group>";
+		};
+		EEB78AA81E7A4CFA0035069A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78AA61E7A4CBB0035069A /* DeviceInfo.swift */,
+				EEF471271E7A757A000DE7BB /* Printers.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEB78AA91E7A4D020035069A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78A991E791CC10035069A /* MainVC.swift */,
+				EEB78A6E1E78FAE60035069A /* HomeVC.swift */,
+				EEB78A971E7902B40035069A /* SettingVC.swift */,
+				EEB78A9B1E792EBE0035069A /* PrinterSettingVC.swift */,
+				EEB78A9D1E7938690035069A /* AddPrinterVC.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		EEB78AAA1E7A4D0E0035069A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78AAC1E7A4E3C0035069A /* Storyboard */,
+				EEB78AA21E7A458B0035069A /* PrinterCell.swift */,
+				EEB78AA41E7A464C0035069A /* PrinterItem.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EEB78AAB1E7A4D470035069A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78A6C1E78FAE60035069A /* AppDelegate.swift */,
+				EEB78A781E78FAE60035069A /* Info.plist */,
+				EEB78A9F1E7943A50035069A /* PrintersDemo-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB78AAC1E7A4E3C0035069A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EEB78A701E78FAE60035069A /* Main.storyboard */,
+				EEB78A941E7902860035069A /* Home.storyboard */,
+				EEB78A921E7902590035069A /* Setting.storyboard */,
+				EEB78A751E78FAE60035069A /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB78A681E78FAE60035069A /* PrintersDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB78A7B1E78FAE60035069A /* Build configuration list for PBXNativeTarget "PrintersDemo" */;
+			buildPhases = (
+				8375F8F46945774B15AC4FF7 /* [CP] Check Pods Manifest.lock */,
+				EEB78A651E78FAE60035069A /* Sources */,
+				EEB78A661E78FAE60035069A /* Frameworks */,
+				EEB78A671E78FAE60035069A /* Resources */,
+				8C90D972C846E0EC07DAA715 /* [CP] Embed Pods Frameworks */,
+				E1CE404B68510208C9CBF9D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintersDemo;
+			productName = PrintersDemo;
+			productReference = EEB78A691E78FAE60035069A /* PrintersDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB78A611E78FAE60035069A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chonnawee Chatcherthaicharoen";
+				TargetAttributes = {
+					EEB78A681E78FAE60035069A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQGPVU2EH4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEB78A641E78FAE60035069A /* Build configuration list for PBXProject "PrintersDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB78A601E78FAE60035069A;
+			productRefGroup = EEB78A6A1E78FAE60035069A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB78A681E78FAE60035069A /* PrintersDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB78A671E78FAE60035069A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB78A771E78FAE60035069A /* LaunchScreen.storyboard in Resources */,
+				EEB78AAE1E7A57260035069A /* SMCloudServicesResources.bundle in Resources */,
+				EEB78A961E7902860035069A /* Home.storyboard in Resources */,
+				EEB78A741E78FAE60035069A /* Assets.xcassets in Resources */,
+				EEB78A721E78FAE60035069A /* Main.storyboard in Resources */,
+				EEB78A931E7902590035069A /* Setting.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8375F8F46945774B15AC4FF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C90D972C846E0EC07DAA715 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrintersDemo/Pods-PrintersDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CE404B68510208C9CBF9D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrintersDemo/Pods-PrintersDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB78A651E78FAE60035069A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB78A9C1E792EBE0035069A /* PrinterSettingVC.swift in Sources */,
+				EEB78A9E1E7938690035069A /* AddPrinterVC.swift in Sources */,
+				EEB78A6F1E78FAE60035069A /* HomeVC.swift in Sources */,
+				EEB78AA31E7A458B0035069A /* PrinterCell.swift in Sources */,
+				EEB78A9A1E791CC10035069A /* MainVC.swift in Sources */,
+				EEB78A981E7902B40035069A /* SettingVC.swift in Sources */,
+				EEF471281E7A757A000DE7BB /* Printers.swift in Sources */,
+				EEB78A6D1E78FAE60035069A /* AppDelegate.swift in Sources */,
+				EEB78AA71E7A4CBB0035069A /* DeviceInfo.swift in Sources */,
+				EEB78AA51E7A464C0035069A /* PrinterItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEB78A701E78FAE60035069A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB78A711E78FAE60035069A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB78A751E78FAE60035069A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB78A761E78FAE60035069A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB78A941E7902860035069A /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB78A951E7902860035069A /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB78A791E78FAE60035069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB78A7A1E78FAE60035069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB78A7C1E78FAE60035069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2AD7B22738B548F4DCD566 /* Pods-PrintersDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQGPVU2EH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PrintersDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.digio.PrintersDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrintersDemo/PrintersDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEB78A7D1E78FAE60035069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56F79CA48B1C0CBF1BB9197 /* Pods-PrintersDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQGPVU2EH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PrintersDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.digio.PrintersDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrintersDemo/PrintersDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB78A641E78FAE60035069A /* Build configuration list for PBXProject "PrintersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB78A791E78FAE60035069A /* Debug */,
+				EEB78A7A1E78FAE60035069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB78A7B1E78FAE60035069A /* Build configuration list for PBXNativeTarget "PrintersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB78A7C1E78FAE60035069A /* Debug */,
+				EEB78A7D1E78FAE60035069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB78A611E78FAE60035069A /* Project object */;
+}
