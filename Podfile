@@ -7,6 +7,8 @@ target 'PrintersDemo' do
 pod 'Hero'
 pod 'RealmSwift'
 pod 'IQKeyboardManagerSwift'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
 
   # Pods for PrintersDemo
 

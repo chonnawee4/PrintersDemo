@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C64280271572DE7E36B5CBCD /* Pods_PrintersDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F9C19DE42471B431B609F3 /* Pods_PrintersDemo.framework */; };
+		EE5429501E80DF7C00C712BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE54294F1E80DF7C00C712BA /* GoogleService-Info.plist */; };
+		EE8150061E7F82F700D410AD /* ReceiptFormatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8150051E7F82F700D410AD /* ReceiptFormatVC.swift */; };
+		EE8150091E7F83DF00D410AD /* ReceiptGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8150081E7F83DF00D410AD /* ReceiptGenerator.swift */; };
 		EEB78A6D1E78FAE60035069A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A6C1E78FAE60035069A /* AppDelegate.swift */; };
 		EEB78A6F1E78FAE60035069A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB78A6E1E78FAE60035069A /* HomeVC.swift */; };
 		EEB78A721E78FAE60035069A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB78A701E78FAE60035069A /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 		8D2AD7B22738B548F4DCD566 /* Pods-PrintersDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintersDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrintersDemo/Pods-PrintersDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		92F9C19DE42471B431B609F3 /* Pods_PrintersDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintersDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56F79CA48B1C0CBF1BB9197 /* Pods-PrintersDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintersDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrintersDemo/Pods-PrintersDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EE54294F1E80DF7C00C712BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE8150051E7F82F700D410AD /* ReceiptFormatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptFormatVC.swift; sourceTree = "<group>"; };
+		EE8150081E7F83DF00D410AD /* ReceiptGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptGenerator.swift; sourceTree = "<group>"; };
 		EEB78A691E78FAE60035069A /* PrintersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB78A6C1E78FAE60035069A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEB78A6E1E78FAE60035069A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -110,6 +116,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EE8150071E7F83CD00D410AD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE8150081E7F83DF00D410AD /* ReceiptGenerator.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		EEB78A601E78FAE60035069A = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +145,7 @@
 		EEB78A6B1E78FAE60035069A /* PrintersDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE8150071E7F83CD00D410AD /* Utils */,
 				EEB78AA81E7A4CFA0035069A /* Model */,
 				EEB78AAA1E7A4D0E0035069A /* View */,
 				EEB78AA91E7A4D020035069A /* ViewController */,
@@ -180,6 +195,7 @@
 				EEB78A971E7902B40035069A /* SettingVC.swift */,
 				EEB78A9B1E792EBE0035069A /* PrinterSettingVC.swift */,
 				EEB78A9D1E7938690035069A /* AddPrinterVC.swift */,
+				EE8150051E7F82F700D410AD /* ReceiptFormatVC.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -197,6 +213,7 @@
 		EEB78AAB1E7A4D470035069A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE54294F1E80DF7C00C712BA /* GoogleService-Info.plist */,
 				EEB78A6C1E78FAE60035069A /* AppDelegate.swift */,
 				EEB78A781E78FAE60035069A /* Info.plist */,
 				EEB78A9F1E7943A50035069A /* PrintersDemo-Bridging-Header.h */,
@@ -284,6 +301,7 @@
 				EEB78A741E78FAE60035069A /* Assets.xcassets in Resources */,
 				EEB78A721E78FAE60035069A /* Main.storyboard in Resources */,
 				EEB78A931E7902590035069A /* Setting.storyboard in Resources */,
+				EE5429501E80DF7C00C712BA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +365,8 @@
 				EEB78A6F1E78FAE60035069A /* HomeVC.swift in Sources */,
 				EEB78AA31E7A458B0035069A /* PrinterCell.swift in Sources */,
 				EEB78A9A1E791CC10035069A /* MainVC.swift in Sources */,
+				EE8150061E7F82F700D410AD /* ReceiptFormatVC.swift in Sources */,
+				EE8150091E7F83DF00D410AD /* ReceiptGenerator.swift in Sources */,
 				EEB78A981E7902B40035069A /* SettingVC.swift in Sources */,
 				EEF471281E7A757A000DE7BB /* Printers.swift in Sources */,
 				EEB78A6D1E78FAE60035069A /* AppDelegate.swift in Sources */,
